@@ -1,0 +1,15 @@
+{
+  "name": "kakao-skill-example",
+  "version": "1.0.0",
+  "description": "카카오톡 챗봇 스킬 서버 - Claude AI 연동",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
