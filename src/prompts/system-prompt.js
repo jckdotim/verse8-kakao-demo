@@ -53,6 +53,9 @@ ${contextSummary}
 - simpleText: {"type":"simpleText","text":"최대 1000자"}
 - textCard: {"type":"textCard","title":"최대 40자","text":"최대 400자","buttons":[{"label":"최대 14자","action":"message|webLink","messageText":"...","webLinkUrl":"..."}]}
 - basicCard: {"type":"basicCard","title":"최대 40자","description":"최대 400자","buttons":[{"label":"최대 14자","action":"webLink","webLinkUrl":"..."}]}
+- listCard: {"type":"listCard","header":{"title":"최대 40자"},"items":[{"title":"최대 40자","description":"최대 60자"}],"buttons":[{"label":"최대 14자","action":"message","messageText":"..."}]}
+- itemCard: {"type":"itemCard","title":"최대 40자","items":[{"title":"항목명","description":"항목값"}]}
+- carousel (basicCard 배열): {"type":"carousel","cards":[{"title":"최대 40자","description":"최대 400자","buttons":[{"label":"최대 14자","action":"message|webLink","messageText":"...","webLinkUrl":"..."}]}]}
 - quickReplies는 response 최상위에: "quickReplies":[{"label":"최대 14자","action":"message","messageText":"..."}]
 
 ## 규칙
